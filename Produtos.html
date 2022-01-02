@@ -1,0 +1,201 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+	<title>Elementos e link e listas html</title>
+	<meta charset="utf-8">
+	<script src="pasta/nome_arquivo.min.js"></script>
+	<link  href="css_estilo/estilo.css" rel="stylesheet" type="text/css">
+	<style>
+							
+		#produtos header h1{
+						width:240px;
+						height:200px;
+						float:left;
+						background-image:url(multimidia/meu-amigo-cao-petshop-header.png);
+						background-repeat:no-repeat;
+						background-position:center center;
+						margin-bottom:0px;
+						text-indent:-1000px;
+						
+				}						
+		header #anuncio{
+						width:510px;
+						float:left;
+						margin:80px auto auto;
+						padding:0px;
+					}						
+								
+		section p a:link{
+						text-decoration:none;
+						border:solid thin;
+						color:red;
+						padding:15px;
+						border-radius:15px;
+					    font-size:1.1em;
+						
+					}
+		header section {
+						padding-top:70px;
+						}								
+		#produtos aside{
+						width:230px;
+						float:left;
+						margin-top:30px;
+			}								
+																									
+		fotter{
+				border-top:solid:7px solid #999;
+				background-color:#000;
+				color:#fff;
+				text-align:center;
+				padding:10px;
+			
+			
+		}										
+			
+		#produtos a[href="Produtos.html"]{
+									background-color:#c0262c;
+										 }	 
+										 							
+		#produtos nav{
+			background-color: #000;
+			overflow: auto;
+			clear: both;
+			margin-top: 10px;
+				
+			}
+										
+		nav ul{
+				list-style:none;
+				padding-left:0px;
+				margin-top:1px;
+				}								
+				
+		nav ul li{
+					float:left;
+				}
+	
+				
+		nav ul a{
+					color:#fff;
+					text-decoration:none;
+					font-size:1.2em;
+					padding:8px 50px;
+					line-height:2em;
+					letter-spacing:1.72px;
+			      }							
+		footer{
+				border-top:solid:7px solid #999;
+				background-color:#000;
+				color:#fff;
+				text-align:center;
+				padding:10px;
+				clear:both;
+		     }	
+	</style>
+</head>
+<body id="produtos">
+	<header>
+				<h1> Meu amigo cão - Petshop</h1>
+			
+				<div id="anuncio"> <img src="multimidia/index/anuncio-cantinho-feliz-h.jpg"> </div>
+				
+	 <section>
+					<p><a href="boletim_mensal.html"> Assine a boletim mensal </a> </p>
+			 
+					<p>Nos acompanhe</p>
+					
+					<figure>
+						<a href="facebook"><img src="multimidia/index/ms-facebook.gif"></a>
+						<a href="twitter"><img src="multimidia/index/ms-twitter.gif"></a>
+						<a href="youtube"><img src="multimidia/index/ms-youtube.gif"></a>
+						<a href="gmais"><img src="multimidia/index/ms-gmais.gif"></a>
+						<a href="pintrest"><img src="multimidia/index/ms-pinterest.gif"></a>
+					</figure>
+	</section>	
+	</header>
+	<nav>
+	 <ul>
+	 
+			 <li><a href="Home.html"> Home </a> </li>
+			 <li><a href="quem_somos.html"> Quem somos </a>
+			 <li> <a href="Produtos.html"> Produtos </a>
+			 <li><a href="banho_tosa.html"> Banho e Tosa </a>
+			 <li><a href="Curiosidades.html"> Curiosidades </a>
+			 
+	</ul>
+	
+	</nav>
+	
+	<main> 
+		<table border="2">
+		<caption> Produtos </caption>
+					<thead>
+					<tr>
+						<th>Porte</th> 
+						<th colspan="2">Marca</th> 
+						<th>Preço</th>
+					</tr>	
+					</thead> 
+					<tbody>
+					<tr>
+						<td rowspan="2">Pequeno</td>
+						<td>Vestibulum</td>
+						<td> <img src="multimidia/pq_emb_pequeno1.png" > </td>
+						<td> R$ 5,00</td>
+					
+					</tr>
+					<tr> 
+						<td>Nunc</td>
+						<td><img src="multimidia/pq_emb_pequeno2.png"> </td>
+						<td> R$ 4,80</td>
+					</tr>
+					
+					<tr>
+						<td rowspan="2">Médio</td>
+						<td> Molis </td>
+						<td> <img src="multimidia/pq_emb_medio1.png"> </td> 
+						<td> R$ 6,90 </td> 
+					</tr>	
+					<tr> 
+						<td>Porttitor</td>
+						<td> <img src="multimidia/pq_emb_medio2.png"> </td>
+						<td> R$3,90</td> 
+					</tr>
+					<tr> 
+						<td rowspan="2">Grande</td> 
+						<td> Licinia</td> 
+						<td> <img src="multimidia/pq_emb_grande1.png"> </td> 
+						<td> R$6,90</td>
+					</tr> 
+					<tr> 
+						<td> Sapien</td> 
+						<td> <img src="multimidia/pq_emb_grande2.png"> </td> 
+						<td> R$ 3,90</td> 	
+					 </tr>
+					 </tbody> 
+			 
+				
+				<tfoot> 
+					
+						<tr>
+						<td colspan="4" >Consulte os preços nas grandes quantidades</td> 
+						</tr> 
+				</tfoot> 
+	</table>
+	</main>
+	
+	<footer> <p> Atendimento: <a href="mailto:atendimento@petshop.com.br">atendimento@petshop.com.br </a> - (0XX) 99999-9999 / (0XX) 88888-8888 </p>  </footer>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>

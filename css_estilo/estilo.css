@@ -1,0 +1,238 @@
+
+	body{
+		width:1000px;
+		margin:auto;
+	}
+	
+	main h1	{ color:#C0262C;
+		font-size:2.5em;
+		border-bottom:solid thin;
+		}
+	
+	
+	main h2	{
+		font-size:1.75em;
+		}
+	
+	main p   {
+		font-size:1.1em;
+		line-height:1.13em;
+		text-align:justify;
+		}
+	
+	main hr {border-color: #C0262C;} 
+
+	body {font-family:Helvetica Arial sans-serif; }
+		
+	main h2+p:first-line{font-size:1.17em;
+				font-variant:small-caps;
+				font-weight:bolder;
+				font-style:italic;
+				}
+				
+	/* página produtos-tabela */
+	
+	#produtos table{
+					width:600px;
+					margin:50px auto 30px;
+					border-collapse: collapse;
+					text-align:center;
+					}
+	td, th{
+			border-style:solid;
+			border-color:#999;
+			width:1px;
+			padding:5px;	
+		}
+		
+	#produtos caption{
+				background-color:#999;
+				padding:15px 0;
+				font-size:15px;
+				
+		}
+		
+	tfoot{
+				font-style:italic;
+				font-weight:bold;
+				
+		}
+		
+		tr:hover{
+				background-color:#feff76;
+				 
+		}
+		
+		/* Página boletim */
+		
+   #boletim h3{
+			background-image: url(../multimidia/back-bolinha.gif);
+			color:#fff;
+			padding:7px;
+			letter-spacing:.1em;
+			width:316px;
+		}
+		
+	#boletim form{
+						background-color:#999;
+						border-radius:0 15px;
+						margin:30px 0;
+						padding:20px 0;
+		}
+		
+	input[type="submit"]{ 
+					border-style:none;
+					border-radius:30px;
+					background-color:#C0262C;
+					padding:10px 30px;
+					color:#fff;
+					margin:20px 0;
+					font-size:1.2em;
+					background-image: linear-gradient(to bottom,#6b1516 0%,#cd262c 30%,#cd262c 70%,#6b1516 100% );
+					cursor:pointer;
+					text-shadow:2px 2px 5px #000;
+					
+	             }
+	#email, #nome{
+					border-style:none;
+					border-bottom:#000 solid 1px;
+					width:800px;
+					color:#fff;
+					font-size:1.2em;
+					background-color:transparent;
+				
+	} 
+						
+						/* WEB */
+						
+	::-webkit-input-placeholder{
+								color:#ddd;
+								font-style:italic;
+								font-size:.8em;
+								}
+								
+	::-moz-placeholder{  		
+						color:#ddd;
+						font-style:italic;
+						font-size:.8em;
+	
+						}			
+								
+	:-ms-input-placeholder{ 	
+							color:#ddd;
+							font-style:italic;
+							font-size:.8em;
+	
+							}		
+								
+	#boletim label{
+					float:left;
+					display:block;
+					margin:7px;
+					width:60px;
+				  }					
+								
+								
+				/* banho e tosa */
+	#banho{
+			width:1000px;
+			margin:auto;
+		}
+		
+		#banho h2{
+					width:207px;
+					height:115px;
+					font-size:1.3125em;
+					letter-spacing:.07em;
+					background-image:url(../multimidia/postit.jpg);
+					background-color:#000;
+					padding:35px;
+				}		
+		#banho legend{
+					background-color:#c0262c;
+					padding:7px;
+					}		
+		
+		#banho fieldset{
+						border-radius:15px;
+						background-color:#fff;
+				
+		}
+		#banho form{
+					background-color:#999999;
+		}
+				/*  home textos da area principal */
+				
+		#home header h1{
+						width:240px;
+						height:200px;
+						float:left;
+						background-image:url(../multimidia/meu-amigo-cao-petshop-header.png);
+						background-repeat:no-repeat;
+						background-position:center center;
+						margin-bottom:0px;
+						text-indent:-1000px;
+						
+				}						
+		header #anuncio{
+						width:510px;
+						float:left;
+						margin:80px auto auto;
+						padding:0px;
+					}						
+								
+		section p a:link{
+						text-decoration:none;
+						border:solid thin;
+						color:red;
+						padding:15px;
+						border-radius:15px;
+					    font-size:1.1em;
+						
+					}
+		header section {
+						padding-top:70px;
+						}
+		section p{
+					color:#999999;
+					margin:33px auto 7px;
+				
+		section figure a:link{
+						width:100%;
+						margin:0;
+						padding:25px 5px 0;
+						
+					  }			
+			
+		section figure a:first-child{
+									padding:25px 5px 0;
+									}	
+						
+		section figure a:last-child{
+									padding:25px 5px 0;
+										}
+										
+										
+										
+									
+				
+										
+	
+		
+			
+
+
+
+
+			 
+									
+			
+									
+									
+									
+									
+									
+									
+									
+									
+		
